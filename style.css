@@ -91,6 +91,21 @@ transition: 0.2 ease-out;
 background-color: var(--accent-color-dark);
 }
 
+.secondary-btn{
+border: 0.5px solid var(--secondary-text-color);
+border-radius: 6px;
+font-weight: 700;
+color: var(--primary-text-color) !important;
+padding: 12px 24px;
+transition: 0.2s ease-out;
+}
+
+.secondary-btn:hover{
+border-color: var(--accent-color);
+color: var(--accent-color) !important;
+
+}
+
 .top-banner{
 background-image: url(/Assests/image/asset\ 30.png);
 background-color: #4fb3d4;
@@ -125,7 +140,47 @@ flex-basis: 730px;
 justify-content: end;
 gap: 40px;
 }
+ 
 
-.nav-link a{
+/* header down section */
 
+header{
+padding: 50px var(--padding-inline-section);
+}
+.h-section{
+justify-content: center;
+gap: 50px;
+}
+.hleft{
+max-width: 40vw;
+}
+
+.hleft h1{
+margin-top: 30px;
+}
+.hleft  p{
+margin-top: 10px;
+}
+.get-started{
+margin-top: 20px;
+
+}
+.hright img{
+width: 600px;
+}
+
+
+/* <!-- companies section */
+.companies-section{
+text-align: center;
+margin-block: 30px;
+color: var(--primary-text-color);
+}
+
+.logos{
+justify-content: space-between;
+}
+
+.logo{
+height: 46px;
 }
