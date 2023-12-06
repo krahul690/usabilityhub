@@ -175,12 +175,36 @@ width: 600px;
 text-align: center;
 margin-block: 30px;
 color: var(--primary-text-color);
+
 }
 
 .logos{
 justify-content: space-between;
+margin-top: 14px;
+flex-wrap: wrap;
 }
 
 .logo{
 height: 46px;
 }
+
+/* features-section */
+
+.features-section{
+padding: 30px var(--padding-inline-section) 0;
+}
+
+.f-header{
+text-align: center;
+}
+
+.f-header h2{
+margin-bottom: 20px;
+
+}
+
+.f-header i{
+margin-left: 5px;
+ }
+
+/* timing is 45:54 */
