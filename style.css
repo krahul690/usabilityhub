@@ -192,6 +192,9 @@ height: 46px;
 
 .features-section{
 padding: 30px var(--padding-inline-section) 0;
+background-image: url(./Assests/image/asset\ 32.svg);
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .f-header{
@@ -207,4 +210,44 @@ margin-bottom: 20px;
 margin-left: 5px;
  }
 
-/* timing is 45:54 */
+.features-area{
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 40px;
+margin-top: 20px;
+}
+.features-card{
+flex-direction: column;
+gap: 20px;
+max-width: 30%;
+text-align: center;
+
+ }
+
+/* Big Feature Section */
+
+.big-feature-section{
+padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-features-container{
+gap: 30px;
+
+}
+.feature-image img{
+width: 100%;
+}
+.feature-desc{
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+/* example section */
+.example-header{
+text-align: center;
+}
+
+.example-header-text{
+margin-bottom: 20px;
+}
