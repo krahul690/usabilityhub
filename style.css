@@ -223,6 +223,9 @@ max-width: 30%;
 text-align: center;
 
  }
+.features-card img{
+width: 60px;
+}
 
 /* Big Feature Section */
 
@@ -264,6 +267,12 @@ background-color: black;
 background-image: linear-gradient(rgb(0, 0,0,0.1),rgb(0,0,0,0.8)), url(./Assests/image/asset\ 35.jpeg);
 background-size: cover;
 }
+.example-cards:hover{
+box-shadow: 0 0 10px #362727;
+border-radius: 4px;
+transition: 0.2 ease-out;
+transform: scale(1.1,1.1);
+}
 
 .card-text{
 position: absolute;
@@ -271,4 +280,65 @@ bottom: 20px;
 left: 20px;
 right: 20px;
 color: white;
+}
+/* cat section */
+
+/* .subfooter{
+
+min-height: 200px;
+background-color: #ce2f2f;
+
+} */
+
+.cta-section-header{
+gap: 30px;
+flex-direction: column;
+color: white;
+margin-bottom: 30px;
+}
+
+.cta-section{
+padding: 120px var(--padding-inline-section) 20px;
+background-color: #183b54;
+
+}
+
+.cta-section-header{
+
+color: white;
+margin-top: 10px;
+
+}
+
+/* footer */
+
+
+footer{
+
+padding-block: 80px;
+background-color: #ebf2fa;
+}
+.link-column{
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.footer-container{
+align-items: flex-start;
+justify-content: space-between;
+
+}
+
+/* subfooter */
+
+.subfooter{
+background-color: #b9cde4;
+padding: var(--padding-inline-section);
+
+}
+.subfooter-container{
+justify-content: center;
+gap: 30px;
+
 }
