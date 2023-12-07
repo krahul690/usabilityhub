@@ -1,0 +1,48 @@
+/** @format */
+
+@media screen and (max-width: 991px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .example-area {
+    gap: 20px;
+  }
+  .example-cards {
+    width: 48%;
+  }
+
+  .cta-section {
+    padding-block: 80px;
+  }
+}
+
+ 
+
+@media screen and (max-width: 767px) {
+  
+
+
+.primary-btn{
+
+width: 100%;
+}
+.h-section {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .hleft {
+    max-width: 100vw;
+    text-align: center;
+  }
+}
+
