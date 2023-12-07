@@ -247,6 +247,10 @@ align-items: flex-start;
 .example-header{
 text-align: center;
 }
+.example-area{
+justify-content: space-between;
+margin-block: 30px;
+}
 
 .example-header-text{
 margin-bottom: 20px;
@@ -255,9 +259,10 @@ margin-bottom: 20px;
 .example-cards{
 width: 23%;
 position: relative;
-min-height: 300px;
+min-height: 350px;
 background-color: black;
-background-image: url(./Assests/image/asset\ 35.jpeg);
+background-image: linear-gradient(rgb(0, 0,0,0.1),rgb(0,0,0,0.8)), url(./Assests/image/asset\ 35.jpeg);
+background-size: cover;
 }
 
 .card-text{
@@ -267,4 +272,3 @@ left: 20px;
 right: 20px;
 color: white;
 }
-/* time is 1:02:40s */
